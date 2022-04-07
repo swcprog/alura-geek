@@ -1,0 +1,10 @@
+.banner__botao{
+    box-sizing: border-box;
+    height: 40px;
+    color: #FFF;
+    background-color: #2A7AE4;
+    outline: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 600;
+}

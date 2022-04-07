@@ -1,0 +1,5 @@
+.banner{
+    align-items: flex-end;
+    background: url("../../assets/img/hero.svg") center/cover no-repeat;
+    height: 192px;
+}
