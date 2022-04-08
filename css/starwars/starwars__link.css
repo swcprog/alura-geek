@@ -1,0 +1,7 @@
+.starwars__link{
+    color: #2A7AE4;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
