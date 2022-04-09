@@ -1,0 +1,7 @@
+.login{
+    align-items: center;
+    background-color: #F5F5F5;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
