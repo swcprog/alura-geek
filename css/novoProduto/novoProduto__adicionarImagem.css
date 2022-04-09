@@ -1,0 +1,11 @@
+.novoProduto__adicionarImagem{
+	width: 100%;
+	height: 138px;
+	background-color: #FFF;
+	box-sizing: border-box;
+	border: dashed 2px #C8C8C8;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
