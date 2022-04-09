@@ -49,6 +49,7 @@
     <link rel="stylesheet" href="./css/footer/footer__faleConosco.css">
     <link rel="stylesheet" href="./css/footer/footer__faleConosco--title.css">
     <link rel="stylesheet" href="./css/footer/footer__faleConosco--form.css">
+    <link rel="stylesheet" href="./css/rodape.css">
 </head>
 <body>
     
@@ -181,14 +182,18 @@
         </div>
         <div class="footer__faleConosco">
             <h2 class="footer__faleConosco--title">Fale Conosco</h2>
-            <form class="footer__faleConosco--form">
-                <label for="nome">Nome</label>
+            <form class="footer__faleConosco--form" action="mailto:swcprog@gmail.com" method="post">
+                <label for="nome" id="label-nome">Nome</label>
                 <input type="text" id="nome">
 
-                <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem"></textarea>
+                <label for="mensagem" id="label-mensagem">Mensagem</label>
+                <textarea id="mensagem" rows="4" ></textarea>
+                <input type="submit" id="enviar-mensagem" value="Enviar Mensagem">
             </form>
         </div>
-    </section>    
-    </html>
-</body>
+    </section>
+    <footer class="rodape">
+        <span>Desenvolvido por Samuel Wesley 2022</span>
+    </footer>    
+ </body>
+</html>
