@@ -1,0 +1,7 @@
+.produtos__card{
+	box-sizing: border-box;
+	width: 140px;
+}
+.produtos__card > img{
+	width: 140px;
+}
