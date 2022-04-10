@@ -32,6 +32,10 @@
     <link rel="stylesheet" href="./css/novoProduto/novoProduto__title.css">
     <link rel="stylesheet" href="./css/novoProduto/novoProduto__adicionarImagem.css">
     <link rel="stylesheet" href="./css/novoProduto/novoProduto__adicionarImagem--texto.css">
+    <link rel="stylesheet" href="./css/novoProduto/novoProduto__form.css">
+    <link rel="stylesheet" href="./css/novoProduto/novoProduto__form--label.css">
+    <link rel="stylesheet" href="./css/novoProduto/novoProduto__form--input.css">
+    <link rel="stylesheet" href="./css/novoProduto/novoProduto__form--submit.css">
 </head>
 <body>
 	<header class="cabecalho container">
@@ -52,13 +56,41 @@
         	<span class="novoProduto__adicionarImagem--texto">Adicionar uma imagem para o produto</span>	
         </div>
         <form class="novoProduto__form">
-        	<label></label>
-        	<input type="" name="">
-        	<label></label>
-        	<input type="" name="">
-        	<label></label>
-        	<input type="" name="">
+        	<label for="nome_produto" class="novoProduto__form--label">Nome do produto</label>
+        	<input type="text" name="nome_produto" class="novoProduto__form--input">
+        	<label for="preco_produto" class="novoProduto__form--label">Preço do produto</label>
+        	<input type="text" name="preco_produto" class="novoProduto__form--input">
+        	<label for="descricao_produto" class="novoProduto__form--label">Descrição do produto</label>
+        	<textarea name="descricao_produto" class="novoProduto__form--input"></textarea>
+        	<input type="submit" name="submit" value="Adicionar produto" class="novoProduto__form--submit">
         </form>
    	</section>
+   	<section class="footer">
+        <div class="footer__menu">
+            <img class="footer__menu--logo" src="./assets/img/logo2.svg"></img>
+            <ul class="footer__menu--lista">
+                <li class="footer__menu--lista--iten">Quem somos nós</li>
+                <li class="footer__menu--lista--iten">Política de privacidade</li>
+                <li class="footer__menu--lista--iten">Programa fidelidade</li>
+                <li class="footer__menu--lista--iten">Nossas lojas</li>
+                <li class="footer__menu--lista--iten">Quero ser franqueado</li>
+                <li class="footer__menu--lista--iten">Anuncie aqui</li>   
+            </ul>
+        </div>
+        <div class="footer__faleConosco">
+            <h2 class="footer__faleConosco--title">Fale Conosco</h2>
+            <form class="footer__faleConosco--form" action="mailto:swcprog@gmail.com" method="post">
+                <label for="nome" id="label-nome">Nome</label>
+                <input type="text" id="nome">
+
+                <label for="mensagem" id="label-mensagem">Mensagem</label>
+                <textarea id="mensagem" rows="4" ></textarea>
+                <input type="submit" id="enviar-mensagem" value="Enviar Mensagem">
+            </form>
+        </div>
+    </section>
+    <footer class="rodape">
+        <span><a id="desenvolvedor" href="https://github.com/swcprog" target="_blank">Desenvolvido por Samuel Wesley 2022</a></span>
+    </footer> 
 </body>
 </html>
