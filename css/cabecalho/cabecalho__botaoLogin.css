@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) {
+    .cabecalho__botaoLogin{
+        order: 2;
+    }  
+}
