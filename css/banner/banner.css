@@ -3,3 +3,11 @@
     background: url("../../assets/img/hero.svg") center/cover no-repeat;
     height: 192px;
 }
+
+@media screen and (min-width: 768px) {
+    .banner{
+        height: 352px;
+        padding: 32px;
+    }
+    
+}

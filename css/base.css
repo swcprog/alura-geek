@@ -8,3 +8,8 @@ body{
     padding: 1rem;
     width: 100%;
 }
+@media screen and (min-width: 768px) {
+    .container{
+        padding: 2rem;
+    }
+}
