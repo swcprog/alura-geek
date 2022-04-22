@@ -2,3 +2,17 @@
     width: 156px;
     height: 174px;
 }
+
+@media screen and (min-width: 768px) {
+    .card__imgProduto{
+        width: 164px;
+        height: 174px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .card__imgProduto{
+        width: 174px;
+        height: 176px;
+    }
+}

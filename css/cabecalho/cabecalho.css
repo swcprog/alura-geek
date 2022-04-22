@@ -3,3 +3,16 @@
     justify-content: space-between;
     height: 4.5rem;
 }
+
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        padding: 1rem 2rem;
+    }
+    
+}
+@media screen and (min-width: 1080px) {
+    .cabecalho{
+        padding: 1rem 4rem;
+    }
+    
+}
