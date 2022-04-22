@@ -5,3 +5,9 @@
 	margin-top: 1rem;
 	box-sizing: border-box;
 }
+
+@media and screen (min-width: 1080px){
+	.novoProduto__form{
+		width: 50%
+	}
+}

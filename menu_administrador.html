@@ -14,9 +14,11 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho__pesquisa.css">
     <link rel="stylesheet" href="./css/cabecalho/cabecalho__botaoLogin.css">
     <link rel="stylesheet" href="./css/cabecalho/cabecalho__busca.css">
     <link rel="stylesheet" href="./css/cabecalho/cabecalho__logo.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho__campo.css">
     <link rel="stylesheet" href="./css/cabecalho/cabecalho__botaoLogin--botao.css">
     <link rel="stylesheet" href="./css/footer/footer.css">
     <link rel="stylesheet" href="./css/footer/footer__menu.css">
@@ -36,25 +38,38 @@
     <link rel="stylesheet" href="./css/novoProduto/novoProduto__form--label.css">
     <link rel="stylesheet" href="./css/novoProduto/novoProduto__form--input.css">
     <link rel="stylesheet" href="./css/novoProduto/novoProduto__form--submit.css">
+    <link rel="stylesheet" href="./css/novoProduto/novoProdutoSuperior.css">
 </head>
 <body>
 	<header class="cabecalho container">
-	    <div class="cabecalho__logo">
-	            
-	      	</div>
-	        <div class="cabecalho__botaoLogin">
-	            <button class="cabecalho__botaoLogin--botao botao__admin">Menu Administrador</button>
-	        </div>
-	        <div class="cabecalho__busca">
-	            
-	        </div>
+        <div class="cabecalho__logo">
+            
+        </div>
+        <div class="cabecalho__botaoLogin">
+            <button class="cabecalho__botaoLogin--botao botao__login">Login</button>
+        </div>
+        <div class="cabecalho__pesquisa">
+            <input type="text" class="cabecalho__campo">
+            <div class="cabecalho__busca">
+            
+            </div>
+        </div>
     </header>
  	<section class="novoProduto container">
-        <h1 class="novoProduto__title">Adicionar Novo Produto</h1>
-        <div class="novoProduto__adicionarImagem">
-        	<img src="./assets/img/vector_adicionarImagem.svg">
-        	<span class="novoProduto__adicionarImagem--texto">Adicionar uma imagem para o produto</span>	
-        </div>
+            <div class="novoProdutoSuperior">
+                <div class="novoProdutoSuperiorLeft">
+                    <h1 class="novoProduto__title">Adicionar Novo Produto</h1>
+                    <div class="novoProduto__adicionarImagem">
+                    	<img src="./assets/img/vector_adicionarImagem.svg">
+                    	<span class="novoProduto__adicionarImagem--texto">Adicionar uma imagem para o produto</span>	
+                    </div>
+                </div>
+                <div class="novoProdutoSuperiorRight">
+                    <span>Ou</span>
+                    <button class="buscarImagem">Procure no seu tablet</button>
+                </div> 
+            </div>
+             
         <form class="novoProduto__form">
         	<label for="nome_produto" class="novoProduto__form--label">Nome do produto</label>
         	<input type="text" name="nome_produto" class="novoProduto__form--input">
