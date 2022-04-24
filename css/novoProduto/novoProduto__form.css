@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-@media and screen (min-width: 1080px){
+@media screen and (min-width: 1080px){
 	.novoProduto__form{
 		width: 50%
 	}
