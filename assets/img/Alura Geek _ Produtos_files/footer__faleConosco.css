@@ -1,0 +1,16 @@
+.footer__faleConosco{
+	
+}
+
+@media screen and (min-width: 768px) {
+    .footer__faleConosco{
+        width: 60%;
+
+    }  
+}
+@media screen and (min-width: 1080px) {
+    .footer__faleConosco{
+        width: 50%;
+
+    }  
+}

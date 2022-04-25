@@ -1,0 +1,13 @@
+.footer__menu{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 1080px) {
+	.footer__menu{
+		flex-direction: row;
+		justify-content: space-around;
+		width: 50%;
+	}
+}

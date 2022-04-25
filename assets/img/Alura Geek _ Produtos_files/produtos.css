@@ -1,17 +1,12 @@
 .produtos{
 	background: #F5F5F5;
-	padding: 1rem;
+	padding: 2rem;
 }
-@media screen and (min-width: 768px) {
-	.produtos{
-		padding: 2rem;
 
-	}
-	
-}
 @media screen and (min-width: 1080px) {
 	.produtos{
 		padding: 2rem 152px;
 
-	}	
+	}
+	
 }

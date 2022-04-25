@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho.css">
     <link rel="stylesheet" href="css/cabecalho/cabecalho__pesquisa.css">
     <link rel="stylesheet" href="./css/cabecalho/cabecalho__botaoLogin.css">
     <link rel="stylesheet" href="./css/cabecalho/cabecalho__busca.css">
@@ -22,8 +23,6 @@
     <link rel="stylesheet" href="./css/detalhes/detalhes.css">
     <link rel="stylesheet" href="./css/detalhes/detalhes__nome.css">
     <link rel="stylesheet" href="./css/detalhes/detalhes__preco.css">
-    <link rel="stylesheet" href="./css/detalhes/detalhes__descricao.css">
-    <link rel="stylesheet" href="./css/banner/produto/produto__banner.css">
     <link rel="stylesheet" href="./css/footer/footer.css">
     <link rel="stylesheet" href="./css/footer/footer__menu.css">
     <link rel="stylesheet" href="./css/footer/footer__menu--logo.css">
@@ -40,6 +39,9 @@
     <link rel="stylesheet" href="./css/cards/card.css">
     <link rel="stylesheet" href="./css/produtosSimilares/produtos__similares--title.css">
     <link rel="stylesheet" href="./css/produtosSimilares/produtos__similares.css">
+    <link rel="stylesheet" href="./css/produtosSimilares/produtos__similares--cards.css">
+    <link rel="stylesheet" href="./css/produtos/produtoAberto__imagem.css">
+    <link rel="stylesheet" href="./css/produtos/produtoAberto.css">
 </head>
 <body>
     <header class="cabecalho container">
@@ -47,7 +49,7 @@
             
         </div>
         <div class="cabecalho__botaoLogin">
-            <button class="cabecalho__botaoLogin--botao botao__login">Login</button>
+            <a href="login.html"><button class="cabecalho__botaoLogin--botao botao__login">Login</button></a>
         </div>
         <div class="cabecalho__pesquisa">
             <input type="text" class="cabecalho__campo">
@@ -56,39 +58,18 @@
             </div>
         </div>
     </header>
-    <div class="produto__banner">
-        
+    <div class="produtoAberto">
+        <div class="produtoAberto__imagem">
+            <img src="./assets/img/produto_banner.svg" alt="imagem do produto">
+        </div>
+        <div class="detalhes container">
+        </div>    
     </div>
-    <section class="detalhes container">
-        <h1 class="detalhes__nome">Produto XYZ</h1>
-        <h2 class="detalhes__preco">R$ 60,00</h2>
-        <span class="detalhes__descricao">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</span>
-    </section>
     <section class="produtos__similares container">
         <h1 class="produtos__similares--title">Produtos Similares</h1>
-        <div class="card produtos__card">
-            <img src="./assets/img/controle.svg" alt="controle" class="card__imgProduto">
-            <h3 class="card__nomeProduto">Produto XYZ</h3>
-            <h3 class="card__precoProduto">R$ 60,00</h3>
-            <a class="card__linkProduto" href="#">Ver produto</a>
-        </div>
-        <div class="card produtos__card">
-            <img src="./assets/img/produto2.svg" alt="darth-vader" class="card__imgProduto">
-            <h3 class="card__nomeProduto">Produto XYZ</h3>
-            <h3 class="card__precoProduto">R$ 60,00</h3>
-            <a class="card__linkProduto" href="#">Ver produto</a>
-        </div>
-        <div class="card produtos__card">
-            <img src="./assets/img/produto3.svg" alt="mestre_yoda" class="card__imgProduto">
-            <h3 class="card__nomeProduto">Produto XYZ</h3>
-            <h3 class="card__precoProduto">R$ 60,00</h3>
-            <a class="card__linkProduto" href="#">Ver produto</a>
-        </div>
-        <div class="card produtos__card">
-            <img src="./assets/img/produto4.svg" alt="soldado_jedi" class="card__imgProduto">
-            <h3 class="card__nomeProduto">Produto XYZ</h3>
-            <h3 class="card__precoProduto">R$ 60,00</h3>
-            <a class="card__linkProduto" href="#">Ver produto</a>
+
+        <div class="produtos__similares--cards">
+
         </div>
     </section>
     <section class="footer">
@@ -119,3 +100,5 @@
         <span><a id="desenvolvedor" href="https://github.com/swcprog" target="_blank">Desenvolvido por Samuel Wesley 2022</a></span>
     </footer>    
 </body>
+<script src="./scripts/produto.js"></script>
+</html>

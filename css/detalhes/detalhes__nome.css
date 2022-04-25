@@ -4,3 +4,10 @@
 	font-weight: 500;
 	margin: 0;
 }
+
+@media screen and (min-width:1080px) {
+	.detalhes__nome{
+		font-size: 52px;
+		font-weight: 500;
+	}
+}

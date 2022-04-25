@@ -1,0 +1,17 @@
+.produtoAberto{
+    background-color: #F5F5F5;
+}
+@media screen and (min-width:768px) {
+    .produtoAberto{
+        display: flex;
+        padding: 32px;
+    }
+    
+}
+
+@media screen and (min-width: 1080px) {
+    .produtoAberto{
+        padding: 64px 152px 0 152px;
+
+    }
+}

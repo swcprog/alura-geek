@@ -1,0 +1,15 @@
+.produtos__similares--cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+@media screen and (min-width:768px) {
+    .produtos__similares--cards{
+        width: 100%;
+    }
+    
+}
+
+

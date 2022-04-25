@@ -1,0 +1,18 @@
+.produtos__superior{
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .produtos__superior{
+        display: flex;
+        width: 704px;
+        justify-content: space-between;
+    }
+    
+}
+
+@media screen and (min-width: 1080px) {
+    .produtos__superior{
+        width: 100%;
+    }  
+}

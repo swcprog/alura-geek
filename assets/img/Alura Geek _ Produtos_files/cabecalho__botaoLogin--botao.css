@@ -1,0 +1,10 @@
+.cabecalho__botaoLogin--botao{
+    background-color: #FFFFFF;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    color: #2A7AE4; 
+    height: 40px;
+    outline: none;
+    width: 135px;
+}
+
