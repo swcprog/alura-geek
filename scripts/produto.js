@@ -15,34 +15,10 @@ produtos.forEach(cards => {
         imagem.innerHTML = `
         <img src="${cards.img}" alt="imagem do produto">
         `
-    }    
+        
+        preencherContainer(produtosSimilares,cards.categoria);
+
+        return
+    }
+
 })
-
-
-
-
-if (largura<1080){
-for (let i = 1; i<5; i++){
-    produtosSimilares.innerHTML+=`
-        <div class="card produtos__card">
-            <img src="${cards.starwars[i].img}" alt="imagem do produto" class="card__imgProduto">
-            <h3 class="card__nomeProduto">${cards.starwars[i].nome}</h3>
-            <h3 class="card__precoProduto">${cards.starwars[i].preco}</h3>
-            <a class="card__linkProduto" href="#">Ver produto</a>
-        </div>
-        `
-    }
-}
-
-if(largura>1000){
-    for (let i = 0; i<6; i++){
-        produtosSimilares.innerHTML+=`
-            <div class="card produtos__card">
-                <img src="${cards.starwars[i].img}" alt="imagem do produto" class="card__imgProduto">
-                <h3 class="card__nomeProduto">${cards.starwars[i].nome}</h3>
-                <h3 class="card__precoProduto">${cards.starwars[i].preco}</h3>
-                <a class="card__linkProduto" href="#">Ver produto</a>
-            </div>
-            `
-        }
-    }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Alura Geek | Menu Administrador</title>
+	<title>Alura Geek | Editar Produto</title>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,14 +58,14 @@
  	<section class="novoProduto container">
             <div class="novoProdutoSuperior">
                 <div class="novoProdutoSuperiorLeft">
-                    <h1 class="novoProduto__title">Adicionar Novo Produto</h1>
+                    <h1 class="novoProduto__title">Editar Produto</h1>
                     <div class="novoProduto__adicionarImagem">
                     	<img src="./assets/img/vector_adicionarImagem.svg">
-                    	<span class="novoProduto__adicionarImagem--texto">Adicionar uma imagem para o produto</span>	
+                    	<span class="novoProduto__adicionarImagem--texto">Deseja alterar a imagem do produto?</span>	
                     </div>
                 </div>
                 <div class="novoProdutoSuperiorRight">
-                    <span>Ou</span>
+                    
                     <input class="buscarImagem" type="file" id="imagem-produto">
                 </div> 
             </div>
@@ -76,10 +76,10 @@
         	<label for="preco_produto" class="novoProduto__form--label">Preço do produto</label>
         	<input type="text" name="preco_produto" class="novoProduto__form--input"id="preco-produto">
             <label for="categoria" class="novoProduto__form--label">Caregoria do produto</label>
-        	<input type="text" name="categoria" required  class="novoProduto__form--input"id="categoria-produto">
+        	<input type="text" name="categoria" class="novoProduto__form--input"id="categoria-produto">
         	<label for="descricao_produto" class="novoProduto__form--label">Descrição do produto</label>
         	<textarea name="descricao_produto" class="novoProduto__form--input"id="descricao-produto"></textarea>
-        	<input type="submit" name="submit" value="Adicionar produto" class="novoProduto__form--submit">
+        	<input type="submit" name="submit" value="Editar produto" class="novoProduto__form--submit">
         </form>
    	</section>
    	<section class="footer">
@@ -109,8 +109,7 @@
     <footer class="rodape">
         <span><a id="desenvolvedor" href="https://github.com/swcprog" target="_blank">Desenvolvido por Samuel Wesley 2022</a></span>
     </footer>
-    <script src="./scripts/menu_administrador.js"></script>
     <script src="scripts/form.js"></script> 
-    <script src="scripts/criarProduto.js"></script> 
+    <script src="scripts/editarProduto.js"></script> 
 </body>
 </html>

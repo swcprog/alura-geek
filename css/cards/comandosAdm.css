@@ -1,0 +1,18 @@
+.comandosAdm{
+    display: flex;
+}
+
+.comandosAdm a{
+    margin-right: 5%;
+    text-decoration: none;
+    font-size: 70%;
+    text-transform: uppercase;
+}
+
+.comandosAdm a:first-child{
+    color: rgb(10, 92, 10);
+}
+
+.comandosAdm a:last-child{
+    color: red;
+}

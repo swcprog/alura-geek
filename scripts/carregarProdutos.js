@@ -50,7 +50,7 @@ const produtosAntigos = [
         },
         {
             img: "./assets/img/controle.svg",
-            nome: "Controle XYZ",
+            nome: "Controle X",
             preco: "R$ 60,00",
             link: "google.com",
             descricao: "Informações Técnicas:<br> Altura: 11cm <br>Comprimento: 12cm <br>Largura: 13cm <br>Peso: 58gr <br>Capacidade: 500ml <br>Material: Cerâmica.",
@@ -58,7 +58,7 @@ const produtosAntigos = [
         },
         {
             img: "./assets/img/controle_console.svg",
-            nome: "Controle e console XYZ",
+            nome: "Controle e console X",
             preco: "R$ 60,00",
             link: "google.com",
             descricao: "Informações Técnicas:<br> Altura: 11cm <br>Comprimento: 12cm <br>Largura: 13cm <br>Peso: 58gr <br>Capacidade: 500ml <br>Material: Cerâmica.",
@@ -66,7 +66,7 @@ const produtosAntigos = [
         },
         {
             img: "./assets/img/console_nitendo.svg",
-            nome: "Console XYZ",
+            nome: "Console X",
             preco: "R$ 60,00",
             link: "google.com",
             descricao: "Informações Técnicas:<br> Altura: 11cm <br>Comprimento: 12cm <br>Largura: 13cm <br>Peso: 58gr <br>Capacidade: 500ml <br>Material: Cerâmica.",
@@ -74,7 +74,7 @@ const produtosAntigos = [
         },
         {
             img: "./assets/img/controle_nitendo.svg",
-            nome: "Controle XYZ",
+            nome: "Controle XY",
             preco: "R$ 60,00",
             link: "google.com",
             descricao: "Informações Técnicas:<br> Altura: 11cm <br>Comprimento: 12cm <br>Largura: 13cm <br>Peso: 58gr <br>Capacidade: 500ml <br>Material: Cerâmica.",
@@ -82,7 +82,7 @@ const produtosAntigos = [
         },
         {
             img: "./assets/img/console2.svg",
-            nome: "Console XYZ",
+            nome: "Console XY",
             preco: "R$ 60,00",
             link: "google.com",
             descricao: "Informações Técnicas:<br> Altura: 11cm <br>Comprimento: 12cm <br>Largura: 13cm <br>Peso: 58gr <br>Capacidade: 500ml <br>Material: Cerâmica.",

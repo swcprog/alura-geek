@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-	<title>Alura Geek | Menu Administrador</title>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--fonts-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek | Excluir Produto</title>
+    <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -20,6 +20,12 @@
     <link rel="stylesheet" href="./css/cabecalho/cabecalho__logo.css">
     <link rel="stylesheet" href="./css/cabecalho/cabecalho__campo.css">
     <link rel="stylesheet" href="./css/cabecalho/cabecalho__botaoLogin--botao.css">
+    <link rel="stylesheet" href="./css/login/login__iniciarSessao--title.css">
+    <link rel="stylesheet" href="./css/login/login__iniciarSessao.css">
+    <link rel="stylesheet" href="./css/login/login__iniciarSessao--btn.css">
+    <link rel="stylesheet" href="./css/login/login__iniciarSessao--senha.css">
+    <link rel="stylesheet" href="./css/login/login__iniciarSessao--email.css">
+    <link rel="stylesheet" href="./css/login/login.css">
     <link rel="stylesheet" href="./css/footer/footer.css">
     <link rel="stylesheet" href="./css/footer/footer__menu.css">
     <link rel="stylesheet" href="./css/footer/footer__menu--logo.css">
@@ -29,24 +35,16 @@
     <link rel="stylesheet" href="./css/footer/footer__faleConosco--title.css">
     <link rel="stylesheet" href="./css/footer/footer__faleConosco--form.css">
     <link rel="stylesheet" href="./css/rodape.css">
-    <link rel="stylesheet" href="./css/login/botao__admin.css">
-    <link rel="stylesheet" href="./css/novoProduto/novoProduto.css">
-    <link rel="stylesheet" href="./css/novoProduto/novoProduto__title.css">
-    <link rel="stylesheet" href="./css/novoProduto/novoProduto__adicionarImagem.css">
-    <link rel="stylesheet" href="./css/novoProduto/novoProduto__adicionarImagem--texto.css">
-    <link rel="stylesheet" href="./css/novoProduto/novoProduto__form.css">
-    <link rel="stylesheet" href="./css/novoProduto/novoProduto__form--label.css">
-    <link rel="stylesheet" href="./css/novoProduto/novoProduto__form--input.css">
-    <link rel="stylesheet" href="./css/novoProduto/novoProduto__form--submit.css">
-    <link rel="stylesheet" href="./css/novoProduto/novoProdutoSuperior.css">
+    
+    
 </head>
 <body>
-	<header class="cabecalho container">
+    <header class="cabecalho container">
         <div class="cabecalho__logo">
             
         </div>
         <div class="cabecalho__botaoLogin">
-            <a href="login.html"><button class="cabecalho__botaoLogin--botao botao__login">Login</button></a>
+            <button class="cabecalho__botaoLogin--botao botao__login">Login</button>
         </div>
         <div class="cabecalho__pesquisa">
             <input type="text" class="cabecalho__campo">
@@ -55,34 +53,15 @@
             </div>
         </div>
     </header>
- 	<section class="novoProduto container">
-            <div class="novoProdutoSuperior">
-                <div class="novoProdutoSuperiorLeft">
-                    <h1 class="novoProduto__title">Adicionar Novo Produto</h1>
-                    <div class="novoProduto__adicionarImagem">
-                    	<img src="./assets/img/vector_adicionarImagem.svg">
-                    	<span class="novoProduto__adicionarImagem--texto">Adicionar uma imagem para o produto</span>	
-                    </div>
-                </div>
-                <div class="novoProdutoSuperiorRight">
-                    <span>Ou</span>
-                    <input class="buscarImagem" type="file" id="imagem-produto">
-                </div> 
-            </div>
-             
-        <form class="novoProduto__form">
-        	<label for="nome_produto" class="novoProduto__form--label">Nome do produto</label>
-        	<input type="text" name="nome_produto" class="novoProduto__form--input"id="nome-produto">
-        	<label for="preco_produto" class="novoProduto__form--label">Preço do produto</label>
-        	<input type="text" name="preco_produto" class="novoProduto__form--input"id="preco-produto">
-            <label for="categoria" class="novoProduto__form--label">Caregoria do produto</label>
-        	<input type="text" name="categoria" required  class="novoProduto__form--input"id="categoria-produto">
-        	<label for="descricao_produto" class="novoProduto__form--label">Descrição do produto</label>
-        	<textarea name="descricao_produto" class="novoProduto__form--input"id="descricao-produto"></textarea>
-        	<input type="submit" name="submit" value="Adicionar produto" class="novoProduto__form--submit">
-        </form>
-   	</section>
-   	<section class="footer">
+    <section class="login">
+        <div class="login__iniciarSessao">
+            <h2 class="login__iniciarSessao--title">Tem certeza que deseja excluir?</h2>
+
+            <button id="login__iniciarSessao--btn" class="excluir_btn">Excluir</button>        
+            <button id="login__iniciarSessao--btn" class="home_btn">Home</button>        
+        </div>
+    </section>
+    <section class="footer">
         <div class="footer__menu">
             <img class="footer__menu--logo" src="./assets/img/logo2.svg"></img>
             <ul class="footer__menu--lista">
@@ -109,8 +88,7 @@
     <footer class="rodape">
         <span><a id="desenvolvedor" href="https://github.com/swcprog" target="_blank">Desenvolvido por Samuel Wesley 2022</a></span>
     </footer>
-    <script src="./scripts/menu_administrador.js"></script>
-    <script src="scripts/form.js"></script> 
-    <script src="scripts/criarProduto.js"></script> 
+    <script src="scripts/form.js"></script>    
+    <script src="scripts/excluirProduto.js"></script>   
 </body>
 </html>
